@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document sample</title>
+    <!-- Tinos 400 & OpenSans 400/700 Fonts through Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Tinos&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Cookie font for prices -->
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css"> <!-- resets all to 0, for cross-browsing needs -->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header class="header screen-width-bgi">
+        <div class="container">
+            <div class="navbar">
+                <div class="navbar-logo">
+                    <img src="img/logo.svg" alt="logo">
+                </div>
+                <div class="navbar-hamburger">
+                    <!-- will be shown when screen width less then container width -->
+                    <div class="navbar-hamburger__line"></div>
+                    <div class="navbar-hamburger__line"></div>
+                    <div class="navbar-hamburger__line"></div>
+                </div>
+                <div class="navbar-elements">
+                    <!-- whole block will be hidden when screen width less then container width -->
+                    <div class="navbar-element">
+                        <a class="navbar-element__link" href="#">ГЛАВНАЯ</a>
+                    </div>
+                    <div class="navbar-element">
+                        <a class="navbar-element__link" href="#">МЕНЮ</a>
+                    </div>
+                    <div class="navbar-element">
+                        <a class="navbar-element__link" href="#">О НАС</a>
+                    </div>
+                    <div class="navbar-element">
+                        <a class="navbar-element__link" href="#">БРОНЬ</a>
+                    </div>
+                    <div class="navbar-element">
+                        <a class="navbar-element__link" href="#"><img class="navbar-element__icon" src="img/cart.svg"
+                                alt="cart"></a>
+                    </div>
+                    <div class="navbar-element">
+                        <hr>
+                    </div>
+
+                    <div class="navbar-element">
+                        <div class="navbar-element-complex navbar-phone">
+                            <div class="navbar-element-complex-row">
+                                <img src="img/phone.svg" alt="phone" class="navbar-phone__img">
+                                <a href="tel:+79998887654" class="navbar-phone__link">+999-888-76-54</a>
+                            </div>
+
+                            <div class="navbar-element-complex-row">
+                                <p class="navbar-phone__paragraph">Свяжитесь с нами для <br>
+                                    бронирования</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="navbar-element">
+                        <button class="navbar-element__button btn" href="#">ЗАКАЗ СТОЛИКА</button>
+                    </div>
+                </div>
+            </div>
+            <div class="header-headline">
+                <h4 class="tinos">Добро пожаловать в</h4>
+                <h3 class="tinos">Наш ресторан</h3>
+                <div class="open-sans header-headline-textWithLines">
+                    <hr>
+                    <p>ДОМ ЛУЧШЕЙ ЕДЫ</p>
+                    <hr>
+                </div>
+                <button class="btn header-button">VIEW MENU</button>
+            </div>
+            <div class="header-cards">
+                <div class="header-card">
+                    <img src="img/header-card-img.svg" alt="img1" class="header-card__img">
+                    <h4 class="header-card__headline">Магическая <span>Атмосфера</span></h4>
+                    <p class="header-card__typeset">В нашем заведении царит <br> магическая атмосфера <br>
+                        наполненная вкусными <br> ароматами</p>
+                </div>
+                <div class="header-card">
+                    <img src="img/header-card-img.svg" alt="img2" class="header-card__img">
+                    <h4 class="header-card__headline">Лучшее качество <span>Еды</span></h4>
+                    <p class="header-card__typeset">Качество нашей <br>
+                        Еды - отменное!
+                    </p>
+                </div>
+                <div class="header-card">
+                    <img src="img/header-card-img.svg" alt="img3" class="header-card__img">
+                    <h4 class="header-card__headline">Недорогая <span>Еда</span></h4>
+                    <p class="header-card__typeset">Стоимость нашей Еды <br>
+                        зависит только от ее <br>
+                        количества. Качество <br>
+                        всегда на высоте!</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="section-history">
+            <div class="container">
+                <div>
+                <h4 class="headline history-headline">Наша <span>История</span></h4>
+                <p class="typeset history-typeset">Как и у любого другого самобытного места, у нас есть своя, особая история. Идея
+                    ресторана пришла основателям неожиданно.
+                    Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров от ближайшего
+                    населенного пункта. Вдали
+                    от цивилизации и связи им пришлось навремя обустровать себе нехитрый быт, добывать и готовить себе
+                    еду.</p>
+                <div class="history-cards">
+                    <div class="history-card">
+                        <p class="history-card__number">93</p>
+                        <p class="history-card__description">Напитки</p>
+                    </div>
+                    <div class="history-card">
+                        <p class="history-card__number">206</p>
+                        <p class="history-card__description">Еда</p>
+                    </div>
+                    <div class="history-card">
+                        <p class="history-card__number">71</p>
+                        <p class="history-card__description">Закуски</p>
+                    </div>
+                </div>
+                </div>
+                <img src="img/section-history-img.png" alt="history img" class="history-img">
+            </div>
+        </section>
+        <form action="#" class="order-form">
+            <div class="container">
+                <div>
+                    <h4 class="headline">Отпразднуйте в одном из <br>
+                        самых лучших ресторанов.</h4>
+                    <p class="typeset">Только в этом месяце бизнес-ланч от 250 ₽</p>
+                </div>
+                <button type="submit" class="btn">ЗАКАЗ СТОЛИКА</button>
+            </div>
+        </form>
+        <section class="section-assortment">
+            <div class="container">
+                <h4 class="headline">Наши <span>Блюда</span></h4>
+                <div class="assortment">
+                    <img src="img/section-assortment-big-img.jpg" alt="big img" class="assortment-big-img">
+                    <div class="assortment-elems">
+                        <div class="assortment-elem">
+                            <img src="img/section-assortment-elem-img.jpg" alt="elem" class="assortment-elem__img">
+                            <p class="assortment-elem__text">Гамбургер мини</p>
+                            <hr>
+                            <p class="assortment-elem__text">220 ₽</p>
+                        </div>
+                        <div class="assortment-elem">
+                            <img src="img/section-assortment-elem-img.jpg" alt="elem" class="assortment-elem__img">
+                            <p class="assortment-elem__text">Гамбургер мини</p>
+                            <hr>
+                            <p class="assortment-elem__text">220 ₽</p>
+                        </div>
+                        <div class="assortment-elem">
+                            <img src="img/section-assortment-elem-img.jpg" alt="elem" class="assortment-elem__img">
+                            <p class="assortment-elem__text">Гамбургер мини</p>
+                            <hr>
+                            <p class="assortment-elem__text">220 ₽</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="menu screen-width-bgi">
+            <div class="container">
+                <h4 class="headline">Наше меню</h4>
+                <div class="menu-list">
+                    <div class="menu-elem recommended">
+                        <div class="menu-elem-image">
+                            <img src="img/section-our-menu-card-img.jpg" alt="elem" class="menu-elem-image__img">
+                            <p class="menu-elem-image__price">420</p> <!-- font cookie? -->
+                        </div>
+                        <h5 class="menu-elem-image__name">Гамбургер макси</h5>
+                        <p class="typeset">Максимально толстый <br>
+                            слой мяса</p>
+                        <button class="menu-elem-btn btn">ЗАКАЗАТЬ</button>
+                    </div>
+                    <div class="menu-elem">
+                        <div class="menu-elem-image">
+                            <img src="img/section-our-menu-card-img.jpg" alt="elem" class="menu-elem-image__img">
+                            <p class="menu-elem-image__price">420</p> <!-- font cookie? -->
+                        </div>
+                        <h5 class="menu-elem-image__name">Гамбургер макси</h5>
+                        <p class="typeset">Максимально толстый <br>
+                            слой мяса</p>
+                        <button class="menu-elem-btn btn">ЗАКАЗАТЬ</button>
+                    </div>
+                    <div class="menu-elem">
+                        <div class="menu-elem-image">
+                            <img src="img/section-our-menu-card-img.jpg" alt="elem" class="menu-elem-image__img">
+                            <p class="menu-elem-image__price">420</p> <!-- font cookie? -->
+                        </div>
+                        <h5 class="menu-elem-image__name">Гамбургер макси</h5>
+                        <p class="typeset">Максимально толстый <br>
+                            слой мяса</p>
+                        <button class="menu-elem-btn btn">ЗАКАЗАТЬ</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feedback">
+            <div class="container">
+                <div class="feedback-cards">
+                    <div class="feedback-card">
+                        <p class="italic typeset">Я надолго запомню мой День рождения, проведённый в этом ресторане!
+                            Кусочек
+                            родной
+                            Армении!!! Отдельное спасибо за
+                            комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и
+                            родственникам также за рубежом,
+                            путешествующих в Санкт-Петербург!!!</p>
+                        <img src="img/section-feedback-person-img.png" alt="person" class="feedback-card__img">
+                        <h4 class="headline">Посетитель</h4>
+                        <p class="typeset">Николай</p>
+                    </div>
+                </div>
+                <div class="feedback-slider-controller">
+                    <div class="feedback-slider-button"></div>
+                    <div class="feedback-slider-button"></div>
+                    <div class="feedback-slider-button active"></div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="container">
+                <h4 class="headline">Галерея <span>Блюд</span></h4>
+                <div class="gallery-row">
+                    <img src="img/section-gallery-doubled-img.jpg" alt="" class="gallery-row__img">
+                    <img src="img/section-gallery-singled-img.jpg" alt="" class="gallery-row__img">
+                    <img src="img/section-gallery-singled-img.jpg" alt="" class="gallery-row__img">
+                </div>
+                <div class="gallery-row">
+                    <img src="img/section-gallery-singled-img.jpg" alt="" class="gallery-row__img">
+                    <img src="img/section-gallery-singled-img.jpg" alt="" class="gallery-row__img">
+                    <img src="img/section-gallery-doubled-img.jpg" alt="" class="gallery-row__img">
+                </div>
+            </div>
+        </section>
+        <section class="cooks">
+            <div class="container">
+                <h4 class="headline">Наши <span>Повара</span></h4>
+                <div class="cooks-images">
+                    <img src="img/section-cooks-person-img.jpg" alt="person" class="cook-image">
+                    <img src="img/section-cooks-person-img.jpg" alt="person" class="cook-image">
+                    <img src="img/section-cooks-person-img.jpg" alt="person" class="cook-image">
+                </div>
+            </div>
+        </section>
+        <section class="reservation screen-width-bgi"></section>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+</body>
+
+</html>
